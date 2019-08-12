@@ -17,7 +17,7 @@ namespace Exercises
 
 
             //Exercise2 
-            Exercise2 exercise2 = new Exercise2();
+            //Exercise2 exercise2 = new Exercise2();
             ////string original = "uno";
             //string original = "aabcccccaaa";
             //string compressed = exercise2.Compress(original);
@@ -36,8 +36,28 @@ namespace Exercises
             //int[] commonNumbers = exercise3.FindCommonElements(a, b, c, d);
 
             ////Excercise4
-            Exercise4 exercise4 = new Exercise4();
-            string[] longestwords = exercise4.GetLongestWord("Esto es solo una minima prueba de pero es la prueba");
+            //Exercise4 exercise4 = new Exercise4();
+            //string[] longestwords = exercise4.GetLongestWord("Esto es solo una minima prueba de pero es la prueba");
+
+            //Excercise5
+            //Exercise5 exercise5 = new Exercise5();
+            //int[,] matrix = new int[3, 3];
+            //matrix[0, 0] = 1;
+            //matrix[0, 1] = 2;
+            //matrix[0, 2] = 3;
+            //matrix[1, 0] = 4;
+            //matrix[1, 1] = 0;
+            //matrix[1, 2] = 6;
+            //matrix[2, 0] = 7;
+            //matrix[2, 1] = 8;
+            //matrix[2, 2] = 9;
+
+            //Dictionary<int, int> zeros = exercise5.PrintMatrix(matrix);
+            //exercise5.EvaluateZero(matrix, zeros);
+
+            //Exercise6
+            Exercise6 exercise6 = new Exercise6();
+            int result = exercise6.Add(10, 8);
         }
     }
 }
