@@ -11,9 +11,19 @@ namespace Exercises
     {
         static void Main(string[] args)
         {
-            //Addition
-            Exercise1 exercise1 = new Exercise1();
-            exercise1.Sum();
+            //Exercise1 Addition
+            //Exercise1 exercise1 = new Exercise1();
+            //exercise1.Sum();
+
+
+            //Exercise2 
+            Exercise2 exercise2 = new Exercise2();
+            //string original = "uno";
+            string original = "aabcccccaaa";
+            string compressed = exercise2.Compress(original);
+            string finalResult = exercise2.EvaluateSize(original, compressed);
+            Console.Write(finalResult);
+            Console.ReadLine();
         }
     }
 }
