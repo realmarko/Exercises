@@ -56,8 +56,12 @@ namespace Exercises
             //exercise5.EvaluateZero(matrix, zeros);
 
             //Exercise6
-            Exercise6 exercise6 = new Exercise6();
-            int result = exercise6.Add(10, 8);
+            //Exercise6 exercise6 = new Exercise6();
+            //int result = exercise6.Add(10, 8);
+
+            //Exercise7
+            Exercise7 exercise7 = new Exercise7();
+            exercise7.PrintCombinations(3);
         }
     }
 }
