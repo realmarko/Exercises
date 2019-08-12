@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Exercises.Exercises;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ namespace Exercises
     {
         static void Main(string[] args)
         {
+            //Addition
+            Exercise1 exercise1 = new Exercise1();
+            exercise1.Sum();
         }
     }
 }
